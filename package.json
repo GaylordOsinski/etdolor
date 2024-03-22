@@ -1,0 +1,26 @@
+{
+  "name": "etdolor",
+  "version": "1.0.0",
+  "description": "Check for green licenses",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/GaylordOsinski/etdolor.git"
+  },
+  "license": "MIT",
+  "author": "CaesarAltenwerth",
+  "main": "index.js",
+  "bin": {
+    "license-check": "./bin/licenseCheck.js"
+  },
+  "dependencies": {
+    "license-checker": "^25.0.1",
+    "yargs": "^17.7.2"
+  },
+  "publishConfig": {
+    "access": "public",
+    "provenance": true
+  },
+  "bugs": {
+    "url": "https://github.com/GaylordOsinski/etdolor.git/issues"
+  }
+}
